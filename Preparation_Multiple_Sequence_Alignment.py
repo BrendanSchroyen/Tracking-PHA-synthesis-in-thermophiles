@@ -22,7 +22,7 @@ with open(output_file_path, 'w') as file:
     file.write('\n'.join(modified_values))
 
 # Merge the output file with another file (This step ONLY needs to be done when you want to add the sequences of the known PhaC enzymes, this txt file can be found in the repository!!)
-phaC_file_path = "YourAccessionNumbersWITHknownPhaC.txt"
+phaC_file_path = "Known_PhaC_Sequences.txt"
 with open(phaC_file_path, 'r') as phaC_file:
     phaC_text = phaC_file.read()
 
